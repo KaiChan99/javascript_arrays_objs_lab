@@ -42,9 +42,10 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-england = null;
+england = unitedKingdom[1];
+england.touristAttractions = ["Buckingham Palace", "The British Museum"]
 
-// console.log(england);
+console.log(england);
 
 
 
@@ -52,9 +53,10 @@ england = null;
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
+wales = unitedKingdom[2];
+wales.capital = "Cardiff"
 
-// console.log(wales);
+console.log(wales);
 
 
 
@@ -62,7 +64,8 @@ wales = null;
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
+// northernIreland = unitedKingdom[3];
+// northernIrelandKeys = northernIreland.keys();
 
 // console.log(northernIrelandKeys);
 
